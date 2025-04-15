@@ -1,0 +1,24 @@
+name: fin_llm_env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - transformers
+  - datasets
+  - peft
+  - bitsandbytes
+  - accelerate
+  - sentencepiece
+  - numpy
+  - pandas
+  - matplotlib
+  - pyyaml
+  - pip
+  - pip:
+      - rouge-score
